@@ -84,13 +84,3 @@ To make the hardware-accelerated model accessible to users without technical kno
 
 _Note: Baseline CPU inference time running entirely on the embedded ARM Cortex-A9 (without hardware acceleration) is **[XX] ms/frame**, highlighting the necessity of the PL fabric for real-time applications._
 
----
-
-## 🎯 COCO Dataset Video Demo
-
-To run the live video demo using the COCO-trained model and print the detection outputs directly to the terminal, use the following command:
-
-```bash
-# Run the live video inference script
-python3 run_coco_demo.py --model models/onnx/yolov3_coco.onnx --camera 0 --print_labels True
-```
