@@ -78,10 +78,9 @@ To make the hardware-accelerated model accessible to users without technical kno
 
 | Model Version          | Target   | Latency (ms) | Throughput (FPS) | Accuracy      | DSP Usage | BRAM    | LUTs    |
 | :--------------------- | :------- | :----------- | :--------------- | :------------ | :-------- | :------ | :------ |
-| Basic CNN (3-4 Layers) | FINN     |              | 0.999            | 10 mAP (COCO) | 0         | 171     | 19895   |
-| SAR Detection          | FINN     | 0.188        | 5.29             | [Value]       | 34        | 124     | 43880   |
-| LPyolo (WiderFace)     | FINN/DPU | 0.084        | 11.87            | [Value]       | 5         | 431     | 67256   |
-| YOLOv3                 | DPU      | [Value]      | [Value]          | [Value]       | [Value]   | [Value] | [Value] |
+| Basic CNN (3-4 Layers) | FINN     | 0.725        | 1.38             | 10 mAP (COCO) | 0         | 171     | 19895   |
+| SAR Detection          | FINN     | 0.188        | 5.29             | 90 mAP        | 34        | 124     | 43880   |
+| LPyolo (WiderFace)     | FINN/DPU | 0.084        | 11.87            | 60 mAP        | 5         | 431     | 67256   |
 
 _Note: Baseline CPU inference time running entirely on the embedded ARM Cortex-A9 (without hardware acceleration) is **[XX] ms/frame**, highlighting the necessity of the PL fabric for real-time applications._
 
