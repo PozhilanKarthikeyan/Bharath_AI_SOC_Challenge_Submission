@@ -1,0 +1,122 @@
+{
+  "MVAU_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "1097",
+    "LUT": "876",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "6"
+  },
+  "StreamingMaxPool_hls_0": {
+    "BRAM_18K": "0",
+    "FF": "174",
+    "LUT": "1447",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_1": {
+    "BRAM_18K": "0",
+    "FF": "664",
+    "LUT": "800",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "3"
+  },
+  "StreamingMaxPool_hls_1": {
+    "BRAM_18K": "0",
+    "FF": "165",
+    "LUT": "1399",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_2": {
+    "BRAM_18K": "0",
+    "FF": "590",
+    "LUT": "861",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "StreamingMaxPool_hls_2": {
+    "BRAM_18K": "0",
+    "FF": "228",
+    "LUT": "2356",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_3": {
+    "BRAM_18K": "0",
+    "FF": "814",
+    "LUT": "1073",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "StreamingMaxPool_hls_3": {
+    "BRAM_18K": "0",
+    "FF": "363",
+    "LUT": "4267",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_4": {
+    "BRAM_18K": "0",
+    "FF": "1248",
+    "LUT": "1545",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "StreamingMaxPool_hls_4": {
+    "BRAM_18K": "0",
+    "FF": "570",
+    "LUT": "7112",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "0"
+  },
+  "MVAU_hls_5": {
+    "BRAM_18K": "7",
+    "FF": "1807",
+    "LUT": "2035",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "MVAU_hls_6": {
+    "BRAM_18K": "7",
+    "FF": "3266",
+    "LUT": "1649",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "3"
+  },
+  "MVAU_hls_7": {
+    "BRAM_18K": "0",
+    "FF": "966",
+    "LUT": "1822",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "MVAU_hls_8": {
+    "BRAM_18K": "7",
+    "FF": "1807",
+    "LUT": "2035",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  },
+  "MVAU_hls_9": {
+    "BRAM_18K": "0",
+    "FF": "7536",
+    "LUT": "11012",
+    "DSP48E": 0,
+    "URAM": "0",
+    "DSP": "1"
+  }
+}

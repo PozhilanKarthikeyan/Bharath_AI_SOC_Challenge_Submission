@@ -1,0 +1,345 @@
+
+*** Running vivado
+    with args -log finn_design_StreamingFIFO_rtl_11_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source finn_design_StreamingFIFO_rtl_11_0.tcl
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source finn_design_StreamingFIFO_rtl_11_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ug_lab/finn/finn-rtllib/memstream'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_0_nwarn1of'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_0_m4tsajpn'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_1_ce0phr1n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_0_xb56_y14'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_2_md_geplu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_0__m9uugb_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_3_d7gay76z'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_1_fegyvytd'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_4_z2phmwkt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_0_4ucdkcbi/project_MVAU_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_5_v0u59d5q'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_2_2eop8rfu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_6_08mvw34m'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingMaxPool_hls_0_9fxgdm82/project_StreamingMaxPool_hls_0/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_7_cc_qe40p'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_1_zfv65kux'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_8_i8h3cc93'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_3_exbgsvmw'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_9_g39pvxnr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_1_93_d4s_i'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_10_v_an4hwg'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_4_uq_dcmmv'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_11_n9hqx_9q'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_1_4z9tob4g/project_MVAU_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_12_3bg1zlmb'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_5_gxxih1y7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_13_ysxez98f'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingMaxPool_hls_1_5u5657md/project_StreamingMaxPool_hls_1/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_14_v1tc3b4o'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_2_l3u0ieyj'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_15_n066kz74'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_6_rmh661_y'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_16_tq29gxt1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_2_zj9rsa76'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_17_0r5o755y'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_7_v8az255t'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_18_0p7kylb4'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_2_f4g_g298/project_MVAU_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_19_3mz5jxq9'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_8_arjoxkaz'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_20_sjken06n'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingMaxPool_hls_2_ma79cjy7/project_StreamingMaxPool_hls_2/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_21_fk_wu8kg'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_3_awquvonm'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_22_s1qyqruq'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_9_1ak4tvi0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_23_sar4u60w'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_3_kgxam4t7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_24_t5ax6bpu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_10_q6chrc9m'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_25_9iwrc41r'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_3_3x5e4_l0/project_MVAU_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_26_i1thacc5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_11_5g7eb0n5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_27_a4j1sl04'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingMaxPool_hls_3_t0395dtr/project_StreamingMaxPool_hls_3/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_28_68ew_70i'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_4_qwowe7as'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_29_movoptca'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_12_emcgwqz8'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_30_mbzs867v'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_4_bj9ztzhu'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_31_do5uzo8p'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_13_rcbhwr8r'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_32_9simff0k'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_4_bf8hvydk/project_MVAU_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_33_wzqr9_0f'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_14_ujar58mh'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_34_v4q_8w0b'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingMaxPool_hls_4_wjfji4l7/project_StreamingMaxPool_hls_4/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_35_rm7qjnsx'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_5_fe9ourd6'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_36_xnwbg58o'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_15_fh06umud'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_37_b9s3au7x'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_5_ojizvlo5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_38_exe95kjt'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_16_jlddzc49'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_39_iobks8ch'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_5_z_abwm0r/project_MVAU_hls_5/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_40_o2rinf8o'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_17_uwet2jtm'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_41_bg5j4_on'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_6_0n5o4tx5'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_42_aei_pg0x'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_18_kdka0bt_'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_43_3nonuy78'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_ConvolutionInputGenerator_rtl_6_ipt78yet'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_44_yw00fymr'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_19_cel8waiz'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_45_lh8rqd51'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_6_4xmley2e/project_MVAU_hls_6/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_46_j235m_9j'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_MVAU_hls_7_qsx_7bko/project_MVAU_hls_7/sol1/impl/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_47__66qt0z7'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingDataWidthConverter_rtl_20_liukhrfo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_48_fbubumj8'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_FMPadding_rtl_7_kvaz2c7r'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_49_e1jambqq'.
+INFO: [Common 17-14] Message 'IP_Flow 19-1700' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: finn_design_StreamingFIFO_rtl_11_0
+Command: synth_design -top finn_design_StreamingFIFO_rtl_11_0 -part xc7z020clg400-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 764369
+INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [/opt/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1650.820 ; gain = 378.738 ; free physical = 626 ; free virtual = 5405
+Synthesis current peak Physical Memory [PSS] (MB): peak = 837.187; parent = 715.602; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2623.875; parent = 1650.824; children = 973.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'finn_design_StreamingFIFO_rtl_11_0' [/home/ug_lab/finn/notebooks/pls5/output/stitched_ip/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_11_0/synth/finn_design_StreamingFIFO_rtl_11_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'StreamingFIFO_rtl_11' [/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_11_n9hqx_9q/StreamingFIFO_rtl_11.v:32]
+INFO: [Synth 8-6157] synthesizing module 'Q_srl' [/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_0_nwarn1of/Q_srl.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'Q_srl' (0#1) [/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_0_nwarn1of/Q_srl.v:72]
+INFO: [Synth 8-6155] done synthesizing module 'StreamingFIFO_rtl_11' (0#1) [/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_11_n9hqx_9q/StreamingFIFO_rtl_11.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'finn_design_StreamingFIFO_rtl_11_0' (0#1) [/home/ug_lab/finn/notebooks/pls5/output/stitched_ip/finn_vivado_stitch_proj.gen/sources_1/bd/finn_design/ip/finn_design_StreamingFIFO_rtl_11_0/synth/finn_design_StreamingFIFO_rtl_11_0.v:53]
+WARNING: [Synth 8-6014] Unused sequential element addr_full_reg was removed.  [/tmp/finn_dev_ug_lab/code_gen_ipgen_StreamingFIFO_rtl_0_nwarn1of/Q_srl.v:144]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1715.789 ; gain = 443.707 ; free physical = 311 ; free virtual = 4801
+Synthesis current peak Physical Memory [PSS] (MB): peak = 837.187; parent = 715.602; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2688.844; parent = 1715.793; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1730.633 ; gain = 458.551 ; free physical = 300 ; free virtual = 4023
+Synthesis current peak Physical Memory [PSS] (MB): peak = 837.187; parent = 715.602; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2703.688; parent = 1730.637; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 1738.637 ; gain = 466.555 ; free physical = 431 ; free virtual = 3996
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+Synthesis current peak Physical Memory [PSS] (MB): peak = 837.187; parent = 715.602; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2711.691; parent = 1738.641; children = 973.051
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Q_srl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+             state_empty |                               00 |                               00
+               state_one |                               01 |                               01
+              state_more |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'Q_srl'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1747.543 ; gain = 475.461 ; free physical = 382 ; free virtual = 3616
+Synthesis current peak Physical Memory [PSS] (MB): peak = 837.187; parent = 715.602; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2720.598; parent = 1747.547; children = 973.051
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   3 Input   16 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 8     
+	   3 Input    2 Bit        Muxes := 6     
+	   2 Input    1 Bit        Muxes := 6     
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1893.574 ; gain = 621.492 ; free physical = 264 ; free virtual = 2321
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1042.149; parent = 928.228; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2866.629; parent = 1893.578; children = 973.051
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1893.574 ; gain = 621.492 ; free physical = 300 ; free virtual = 2366
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1045.212; parent = 931.286; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2866.629; parent = 1893.578; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:15 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 387 ; free virtual = 2466
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1045.581; parent = 931.629; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 980 ; free virtual = 3186
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.164; parent = 931.957; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 997 ; free virtual = 3204
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.164; parent = 931.957; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1005 ; free virtual = 3212
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.221; parent = 932.018; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1063 ; free virtual = 3271
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.228; parent = 932.026; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1132 ; free virtual = 3340
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.289; parent = 932.069; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1134 ; free virtual = 3342
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.289; parent = 932.074; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     1|
+|2     |LUT2 |     3|
+|3     |LUT3 |     1|
+|4     |LUT4 |    22|
+|5     |FDRE |    37|
+|6     |FDSE |     1|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+---------------------+------+
+|      |Instance |Module               |Cells |
++------+---------+---------------------+------+
+|1     |top      |                     |    65|
+|2     |  inst   |StreamingFIFO_rtl_11 |    65|
+|3     |    impl |Q_srl                |    65|
++------+---------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1132 ; free virtual = 3341
+Synthesis current peak Physical Memory [PSS] (MB): peak = 1046.360; parent = 932.151; children = 121.585
+Synthesis current peak Virtual Memory [VSS] (MB): peak = 2874.637; parent = 1901.586; children = 973.051
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.582 ; gain = 629.500 ; free physical = 1143 ; free virtual = 3353
+Synthesis Optimization Complete : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1901.590 ; gain = 629.500 ; free physical = 1116 ; free virtual = 3326
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1908.520 ; gain = 0.000 ; free physical = 1353 ; free virtual = 3570
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2044.168 ; gain = 0.000 ; free physical = 1853 ; free virtual = 4128
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: e2ddd4af
+INFO: [Common 17-83] Releasing license: Synthesis
+124 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 2044.168 ; gain = 775.055 ; free physical = 2008 ; free virtual = 4285
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Common 17-1381] The checkpoint '/home/ug_lab/finn/notebooks/pls5/output/stitched_ip/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_11_0_synth_1/finn_design_StreamingFIFO_rtl_11_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:04 ; elapsed = 00:00:15 . Memory (MB): peak = 2399.152 ; gain = 354.984 ; free physical = 253 ; free virtual = 2344
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP finn_design_StreamingFIFO_rtl_11_0, cache-ID = 81c84da6b58409ee
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ug_lab/finn/notebooks/pls5/output/stitched_ip/finn_vivado_stitch_proj.runs/finn_design_StreamingFIFO_rtl_11_0_synth_1/finn_design_StreamingFIFO_rtl_11_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file finn_design_StreamingFIFO_rtl_11_0_utilization_synth.rpt -pb finn_design_StreamingFIFO_rtl_11_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 16 18:37:44 2026...

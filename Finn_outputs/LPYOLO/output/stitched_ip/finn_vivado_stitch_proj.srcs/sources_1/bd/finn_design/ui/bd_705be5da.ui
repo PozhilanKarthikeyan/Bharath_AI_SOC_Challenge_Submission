@@ -1,0 +1,253 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.81274",
+   "Default View_TopLeft":"-210,-67",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port s_axis_0 -pg 1 -lvl 0 -x -10 -y 50 -defaultsOSRD
+preplace port m_axis_0 -pg 1 -lvl 118 -x 31740 -y 280 -defaultsOSRD
+preplace port port-id_ap_clk -pg 1 -lvl 0 -x -10 -y 70 -defaultsOSRD
+preplace port port-id_ap_rst_n -pg 1 -lvl 0 -x -10 -y 90 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_0 -pg 1 -lvl 1 -x 160 -y 70 -defaultsOSRD
+preplace inst FMPadding_rtl_0 -pg 1 -lvl 2 -x 430 -y 80 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_1 -pg 1 -lvl 3 -x 700 -y 100 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_0 -pg 1 -lvl 4 -x 970 -y 100 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_2 -pg 1 -lvl 5 -x 1240 -y 120 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_3 -pg 1 -lvl 7 -x 1780 -y 140 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_1 -pg 1 -lvl 8 -x 2050 -y 140 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_4 -pg 1 -lvl 9 -x 2320 -y 160 -defaultsOSRD
+preplace inst MVAU_hls_0 -pg 1 -lvl 10 -x 2570 -y 160 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_5 -pg 1 -lvl 11 -x 2820 -y 180 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_2 -pg 1 -lvl 12 -x 3090 -y 180 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_6 -pg 1 -lvl 13 -x 3360 -y 200 -defaultsOSRD
+preplace inst StreamingMaxPool_hls_0 -pg 1 -lvl 14 -x 3640 -y 200 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_7 -pg 1 -lvl 15 -x 3930 -y 200 -defaultsOSRD
+preplace inst FMPadding_rtl_1 -pg 1 -lvl 16 -x 4200 -y 210 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_8 -pg 1 -lvl 17 -x 4470 -y 230 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_3 -pg 1 -lvl 18 -x 4740 -y 230 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_9 -pg 1 -lvl 19 -x 5010 -y 250 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_10 -pg 1 -lvl 21 -x 5550 -y 270 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_4 -pg 1 -lvl 22 -x 5820 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_11 -pg 1 -lvl 23 -x 6100 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_1 -pg 1 -lvl 24 -x 6350 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_12 -pg 1 -lvl 25 -x 6600 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_5 -pg 1 -lvl 26 -x 6870 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_13 -pg 1 -lvl 27 -x 7150 -y 280 -defaultsOSRD
+preplace inst StreamingMaxPool_hls_1 -pg 1 -lvl 28 -x 7430 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_14 -pg 1 -lvl 29 -x 7720 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_2 -pg 1 -lvl 30 -x 7990 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_15 -pg 1 -lvl 31 -x 8260 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_6 -pg 1 -lvl 32 -x 8530 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_16 -pg 1 -lvl 33 -x 8810 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_17 -pg 1 -lvl 35 -x 9360 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_7 -pg 1 -lvl 36 -x 9630 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_18 -pg 1 -lvl 37 -x 9910 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_2 -pg 1 -lvl 38 -x 10160 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_19 -pg 1 -lvl 39 -x 10420 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_8 -pg 1 -lvl 40 -x 10690 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_20 -pg 1 -lvl 41 -x 10970 -y 280 -defaultsOSRD
+preplace inst StreamingMaxPool_hls_2 -pg 1 -lvl 42 -x 11250 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_21 -pg 1 -lvl 43 -x 11540 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_3 -pg 1 -lvl 44 -x 11810 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_22 -pg 1 -lvl 45 -x 12080 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_9 -pg 1 -lvl 46 -x 12350 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_23 -pg 1 -lvl 47 -x 12630 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_24 -pg 1 -lvl 49 -x 13180 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_10 -pg 1 -lvl 50 -x 13450 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_25 -pg 1 -lvl 51 -x 13730 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_3 -pg 1 -lvl 52 -x 13980 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_26 -pg 1 -lvl 53 -x 14240 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_11 -pg 1 -lvl 54 -x 14510 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_27 -pg 1 -lvl 55 -x 14790 -y 280 -defaultsOSRD
+preplace inst StreamingMaxPool_hls_3 -pg 1 -lvl 56 -x 15070 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_28 -pg 1 -lvl 57 -x 15360 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_4 -pg 1 -lvl 58 -x 15630 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_29 -pg 1 -lvl 59 -x 15900 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_12 -pg 1 -lvl 60 -x 16170 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_30 -pg 1 -lvl 61 -x 16450 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_31 -pg 1 -lvl 63 -x 17000 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_13 -pg 1 -lvl 64 -x 17270 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_32 -pg 1 -lvl 65 -x 17550 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_4 -pg 1 -lvl 66 -x 17800 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_33 -pg 1 -lvl 67 -x 18060 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_14 -pg 1 -lvl 68 -x 18330 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_34 -pg 1 -lvl 69 -x 18610 -y 280 -defaultsOSRD
+preplace inst StreamingMaxPool_hls_4 -pg 1 -lvl 70 -x 18890 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_35 -pg 1 -lvl 71 -x 19180 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_5 -pg 1 -lvl 72 -x 19450 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_36 -pg 1 -lvl 73 -x 19720 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_15 -pg 1 -lvl 74 -x 19990 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_37 -pg 1 -lvl 75 -x 20270 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_38 -pg 1 -lvl 77 -x 20820 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_16 -pg 1 -lvl 78 -x 21090 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_39 -pg 1 -lvl 79 -x 21370 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_5 -pg 1 -lvl 80 -x 21620 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_40 -pg 1 -lvl 81 -x 21880 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_17 -pg 1 -lvl 82 -x 22150 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_41 -pg 1 -lvl 83 -x 22430 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_6 -pg 1 -lvl 84 -x 22700 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_42 -pg 1 -lvl 85 -x 22970 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_18 -pg 1 -lvl 86 -x 23240 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_43 -pg 1 -lvl 87 -x 23520 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_44 -pg 1 -lvl 89 -x 24070 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_19 -pg 1 -lvl 90 -x 24340 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_45 -pg 1 -lvl 91 -x 24620 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_6 -pg 1 -lvl 92 -x 24870 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_46 -pg 1 -lvl 93 -x 25130 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_7 -pg 1 -lvl 94 -x 25380 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_47 -pg 1 -lvl 95 -x 25640 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_20 -pg 1 -lvl 96 -x 25910 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_48 -pg 1 -lvl 97 -x 26190 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_7 -pg 1 -lvl 98 -x 26460 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_49 -pg 1 -lvl 99 -x 26730 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_21 -pg 1 -lvl 100 -x 27000 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_50 -pg 1 -lvl 101 -x 27280 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_51 -pg 1 -lvl 103 -x 27830 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_22 -pg 1 -lvl 104 -x 28100 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_52 -pg 1 -lvl 105 -x 28380 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_8 -pg 1 -lvl 106 -x 28630 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_53 -pg 1 -lvl 107 -x 28890 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_23 -pg 1 -lvl 108 -x 29160 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_54 -pg 1 -lvl 109 -x 29440 -y 280 -defaultsOSRD
+preplace inst FMPadding_rtl_8 -pg 1 -lvl 110 -x 29710 -y 270 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_55 -pg 1 -lvl 111 -x 29980 -y 280 -defaultsOSRD
+preplace inst StreamingDataWidthConverter_rtl_24 -pg 1 -lvl 112 -x 30250 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_56 -pg 1 -lvl 113 -x 30530 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_8 -pg 1 -lvl 114 -x 30800 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_57 -pg 1 -lvl 115 -x 31080 -y 280 -defaultsOSRD
+preplace inst MVAU_hls_9 -pg 1 -lvl 116 -x 31330 -y 280 -defaultsOSRD
+preplace inst StreamingFIFO_rtl_58 -pg 1 -lvl 117 -x 31580 -y 300 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_0 -pg 1 -lvl 6 -x 1510 -y 120 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_1 -pg 1 -lvl 20 -x 5280 -y 250 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_2 -pg 1 -lvl 34 -x 9080 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_3 -pg 1 -lvl 48 -x 12900 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_4 -pg 1 -lvl 62 -x 16720 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_5 -pg 1 -lvl 76 -x 20540 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_6 -pg 1 -lvl 88 -x 23790 -y 280 -defaultsOSRD
+preplace inst ConvolutionInputGenerator_rtl_7 -pg 1 -lvl 102 -x 27550 -y 280 -defaultsOSRD
+preplace netloc ap_clk_0_1 1 0 117 20 150 300 170 550 20 840 20 1090 30 1390 30 1640 50 1930 50 2180 70 2470 70 2680 100 2960 100 3210 280 3500 280 3780 280 4070 300 4330 310 4610 310 4860 330 5150 330 5400 190 5690 190 5950 360 6240 350 6460 360 6740 360 7000 360 7290 360 7570 360 7860 360 8110 360 8400 360 8660 360 8950 360 9210 360 9500 360 9760 360 10050 360 10270 360 10560 360 10820 360 11110 360 11390 360 11680 360 11930 360 12220 360 12480 360 12770 360 13030 360 13320 360 13580 360 13870 360 14090 360 14380 360 14640 360 14930 360 15210 360 15500 360 15750 360 16040 360 16300 360 16590 360 16850 360 17140 360 17400 360 17690 360 17910 360 18200 360 18460 360 18750 360 19030 360 19320 360 19570 360 19860 360 20120 360 20410 360 20670 360 20960 360 21220 360 21510 360 21730 360 22020 360 22280 360 22570 360 22820 360 23110 360 23370 360 23660 360 23920 360 24210 360 24470 360 24760 360 24980 360 25270 360 25490 360 25780 360 26040 360 26330 360 26580 360 26870 360 27130 360 27420 360 27680 360 27970 360 28230 360 28520 360 28740 360 29030 360 29290 360 29580 360 29830 360 30120 360 30380 360 30670 360 30930 360 31220 360 31430J
+preplace netloc ap_rst_n_0_1 1 0 117 10 160 310 180 560 180 840 180 1100 40 1380 40 1630 60 1920 60 2170 80 2460 80 2670 260 2960 260 3220 290 3510 290 3790 290 4080 310 4320 320 4620 320 4870 340 5160 340 5410 350 5690 350 5960 370 6250 360 6450 370 6750 370 7010 370 7300 370 7580 370 7870 370 8120 370 8410 370 8670 370 8960 370 9220 370 9510 370 9770 370 10060 350 10280 370 10570 370 10830 370 11120 370 11400 370 11690 370 11940 370 12230 370 12490 370 12780 370 13040 370 13330 370 13590 370 13880 350 14100 370 14390 370 14650 370 14940 370 15220 370 15510 370 15760 370 16050 370 16310 370 16600 370 16860 370 17150 370 17410 370 17700 350 17920 370 18210 370 18470 370 18760 370 19040 370 19330 370 19580 370 19870 370 20130 370 20420 370 20680 370 20970 370 21230 370 21520 350 21740 370 22030 370 22290 370 22580 370 22830 370 23120 370 23380 370 23670 370 23930 370 24220 370 24480 370 24770 350 24990 370 25280 350 25500 370 25790 370 26050 370 26340 370 26590 370 26880 370 27140 370 27430 370 27690 370 27980 370 28240 370 28530 350 28750 370 29040 370 29300 370 29590 370 29840 370 30130 370 30390 370 30680 370 30940 370 31230 350 31440J
+preplace netloc ConvolutionInputGenerator_rtl_0_out_V 1 6 1 N 120
+preplace netloc ConvolutionInputGenerator_rtl_1_out_V 1 20 1 N 250
+preplace netloc ConvolutionInputGenerator_rtl_2_out_V 1 34 1 9200 260n
+preplace netloc ConvolutionInputGenerator_rtl_3_out_V 1 48 1 13020 260n
+preplace netloc ConvolutionInputGenerator_rtl_4_out_V 1 62 1 16840 260n
+preplace netloc ConvolutionInputGenerator_rtl_5_out_V 1 76 1 20660 260n
+preplace netloc ConvolutionInputGenerator_rtl_6_out_V 1 88 1 23910 260n
+preplace netloc ConvolutionInputGenerator_rtl_7_out_V 1 102 1 27670 260n
+preplace netloc ConvolutionInputGenerator_rtl_8_out_V 1 114 1 30920 260n
+preplace netloc FMPadding_rtl_0_out_V 1 2 1 N 80
+preplace netloc FMPadding_rtl_1_out_V 1 16 1 N 210
+preplace netloc FMPadding_rtl_2_out_V 1 30 1 8110 260n
+preplace netloc FMPadding_rtl_3_out_V 1 44 1 11930 260n
+preplace netloc FMPadding_rtl_4_out_V 1 58 1 15750 260n
+preplace netloc FMPadding_rtl_5_out_V 1 72 1 19570 260n
+preplace netloc FMPadding_rtl_6_out_V 1 84 1 22820 260n
+preplace netloc FMPadding_rtl_7_out_V 1 98 1 26580 260n
+preplace netloc FMPadding_rtl_8_out_V 1 110 1 29830 260n
+preplace netloc MVAU_hls_0_out_V 1 10 1 N 160
+preplace netloc MVAU_hls_1_out_V 1 24 1 6450 260n
+preplace netloc MVAU_hls_2_out_V 1 38 1 10260 260n
+preplace netloc MVAU_hls_3_out_V 1 52 1 14080 260n
+preplace netloc MVAU_hls_4_out_V 1 66 1 17900 260n
+preplace netloc MVAU_hls_5_out_V 1 80 1 21720 260n
+preplace netloc MVAU_hls_6_out_V 1 92 1 24970 260n
+preplace netloc MVAU_hls_7_out_V 1 94 1 25480 260n
+preplace netloc MVAU_hls_8_out_V 1 106 1 28730 260n
+preplace netloc MVAU_hls_9_out_V 1 116 1 N 280
+preplace netloc StreamingDataWidthConverter_rtl_0_out_V 1 4 1 N 100
+preplace netloc StreamingDataWidthConverter_rtl_10_out_V 1 50 1 13570 260n
+preplace netloc StreamingDataWidthConverter_rtl_11_out_V 1 54 1 14630 260n
+preplace netloc StreamingDataWidthConverter_rtl_12_out_V 1 60 1 16290 260n
+preplace netloc StreamingDataWidthConverter_rtl_13_out_V 1 64 1 17390 260n
+preplace netloc StreamingDataWidthConverter_rtl_14_out_V 1 68 1 18450 260n
+preplace netloc StreamingDataWidthConverter_rtl_15_out_V 1 74 1 20110 260n
+preplace netloc StreamingDataWidthConverter_rtl_16_out_V 1 78 1 21210 260n
+preplace netloc StreamingDataWidthConverter_rtl_17_out_V 1 82 1 22270 260n
+preplace netloc StreamingDataWidthConverter_rtl_18_out_V 1 86 1 23360 260n
+preplace netloc StreamingDataWidthConverter_rtl_19_out_V 1 90 1 24460 260n
+preplace netloc StreamingDataWidthConverter_rtl_1_out_V 1 8 1 N 140
+preplace netloc StreamingDataWidthConverter_rtl_20_out_V 1 96 1 26030 260n
+preplace netloc StreamingDataWidthConverter_rtl_21_out_V 1 100 1 27120 260n
+preplace netloc StreamingDataWidthConverter_rtl_22_out_V 1 104 1 28220 260n
+preplace netloc StreamingDataWidthConverter_rtl_23_out_V 1 108 1 29280 260n
+preplace netloc StreamingDataWidthConverter_rtl_24_out_V 1 112 1 30370 260n
+preplace netloc StreamingDataWidthConverter_rtl_2_out_V 1 12 1 N 180
+preplace netloc StreamingDataWidthConverter_rtl_3_out_V 1 18 1 N 230
+preplace netloc StreamingDataWidthConverter_rtl_4_out_V 1 22 1 5940 260n
+preplace netloc StreamingDataWidthConverter_rtl_5_out_V 1 26 1 6990 260n
+preplace netloc StreamingDataWidthConverter_rtl_6_out_V 1 32 1 8650 260n
+preplace netloc StreamingDataWidthConverter_rtl_7_out_V 1 36 1 9750 260n
+preplace netloc StreamingDataWidthConverter_rtl_8_out_V 1 40 1 10810 260n
+preplace netloc StreamingDataWidthConverter_rtl_9_out_V 1 46 1 12470 260n
+preplace netloc StreamingFIFO_rtl_0_out_V 1 1 1 N 50
+preplace netloc StreamingFIFO_rtl_10_out_V 1 21 1 N 250
+preplace netloc StreamingFIFO_rtl_11_out_V 1 23 1 N 260
+preplace netloc StreamingFIFO_rtl_12_out_V 1 25 1 N 260
+preplace netloc StreamingFIFO_rtl_13_out_V 1 27 1 N 260
+preplace netloc StreamingFIFO_rtl_14_out_V 1 29 1 7860 240n
+preplace netloc StreamingFIFO_rtl_15_out_V 1 31 1 N 260
+preplace netloc StreamingFIFO_rtl_16_out_V 1 33 1 N 260
+preplace netloc StreamingFIFO_rtl_17_out_V 1 35 1 N 260
+preplace netloc StreamingFIFO_rtl_18_out_V 1 37 1 N 260
+preplace netloc StreamingFIFO_rtl_19_out_V 1 39 1 N 260
+preplace netloc StreamingFIFO_rtl_1_out_V 1 3 1 N 80
+preplace netloc StreamingFIFO_rtl_20_out_V 1 41 1 N 260
+preplace netloc StreamingFIFO_rtl_21_out_V 1 43 1 11680 240n
+preplace netloc StreamingFIFO_rtl_22_out_V 1 45 1 N 260
+preplace netloc StreamingFIFO_rtl_23_out_V 1 47 1 N 260
+preplace netloc StreamingFIFO_rtl_24_out_V 1 49 1 N 260
+preplace netloc StreamingFIFO_rtl_25_out_V 1 51 1 N 260
+preplace netloc StreamingFIFO_rtl_26_out_V 1 53 1 N 260
+preplace netloc StreamingFIFO_rtl_27_out_V 1 55 1 N 260
+preplace netloc StreamingFIFO_rtl_28_out_V 1 57 1 15500 240n
+preplace netloc StreamingFIFO_rtl_29_out_V 1 59 1 N 260
+preplace netloc StreamingFIFO_rtl_2_out_V 1 5 1 N 100
+preplace netloc StreamingFIFO_rtl_30_out_V 1 61 1 N 260
+preplace netloc StreamingFIFO_rtl_31_out_V 1 63 1 N 260
+preplace netloc StreamingFIFO_rtl_32_out_V 1 65 1 N 260
+preplace netloc StreamingFIFO_rtl_33_out_V 1 67 1 N 260
+preplace netloc StreamingFIFO_rtl_34_out_V 1 69 1 N 260
+preplace netloc StreamingFIFO_rtl_35_out_V 1 71 1 19320 240n
+preplace netloc StreamingFIFO_rtl_36_out_V 1 73 1 N 260
+preplace netloc StreamingFIFO_rtl_37_out_V 1 75 1 N 260
+preplace netloc StreamingFIFO_rtl_38_out_V 1 77 1 N 260
+preplace netloc StreamingFIFO_rtl_39_out_V 1 79 1 N 260
+preplace netloc StreamingFIFO_rtl_3_out_V 1 7 1 N 120
+preplace netloc StreamingFIFO_rtl_40_out_V 1 81 1 N 260
+preplace netloc StreamingFIFO_rtl_41_out_V 1 83 1 22570 240n
+preplace netloc StreamingFIFO_rtl_42_out_V 1 85 1 N 260
+preplace netloc StreamingFIFO_rtl_43_out_V 1 87 1 N 260
+preplace netloc StreamingFIFO_rtl_44_out_V 1 89 1 N 260
+preplace netloc StreamingFIFO_rtl_45_out_V 1 91 1 N 260
+preplace netloc StreamingFIFO_rtl_46_out_V 1 93 1 N 260
+preplace netloc StreamingFIFO_rtl_47_out_V 1 95 1 N 260
+preplace netloc StreamingFIFO_rtl_48_out_V 1 97 1 26330 240n
+preplace netloc StreamingFIFO_rtl_49_out_V 1 99 1 N 260
+preplace netloc StreamingFIFO_rtl_4_out_V 1 9 1 N 140
+preplace netloc StreamingFIFO_rtl_50_out_V 1 101 1 N 260
+preplace netloc StreamingFIFO_rtl_51_out_V 1 103 1 N 260
+preplace netloc StreamingFIFO_rtl_52_out_V 1 105 1 N 260
+preplace netloc StreamingFIFO_rtl_53_out_V 1 107 1 N 260
+preplace netloc StreamingFIFO_rtl_54_out_V 1 109 1 29580 240n
+preplace netloc StreamingFIFO_rtl_55_out_V 1 111 1 N 260
+preplace netloc StreamingFIFO_rtl_56_out_V 1 113 1 N 260
+preplace netloc StreamingFIFO_rtl_57_out_V 1 115 1 N 260
+preplace netloc StreamingFIFO_rtl_58_out_V 1 117 1 N 280
+preplace netloc StreamingFIFO_rtl_5_out_V 1 11 1 N 160
+preplace netloc StreamingFIFO_rtl_6_out_V 1 13 1 N 180
+preplace netloc StreamingFIFO_rtl_7_out_V 1 15 1 N 180
+preplace netloc StreamingFIFO_rtl_8_out_V 1 17 1 N 210
+preplace netloc StreamingFIFO_rtl_9_out_V 1 19 1 N 230
+preplace netloc StreamingMaxPool_hls_0_out_V 1 14 1 3770 180n
+preplace netloc StreamingMaxPool_hls_1_out_V 1 28 1 7560 260n
+preplace netloc StreamingMaxPool_hls_2_out_V 1 42 1 11380 260n
+preplace netloc StreamingMaxPool_hls_3_out_V 1 56 1 15200 260n
+preplace netloc StreamingMaxPool_hls_4_out_V 1 70 1 19020 260n
+preplace netloc in0_V_0_1 1 0 1 NJ 50
+levelinfo -pg 1 -10 160 430 700 970 1240 1510 1780 2050 2320 2570 2820 3090 3360 3640 3930 4200 4470 4740 5010 5280 5550 5820 6100 6350 6600 6870 7150 7430 7720 7990 8260 8530 8810 9080 9360 9630 9910 10160 10420 10690 10970 11250 11540 11810 12080 12350 12630 12900 13180 13450 13730 13980 14240 14510 14790 15070 15360 15630 15900 16170 16450 16720 17000 17270 17550 17800 18060 18330 18610 18890 19180 19450 19720 19990 20270 20540 20820 21090 21370 21620 21880 22150 22430 22700 22970 23240 23520 23790 24070 24340 24620 24870 25130 25380 25640 25910 26190 26460 26730 27000 27280 27550 27830 28100 28380 28630 28890 29160 29440 29710 29980 30250 30530 30800 31080 31330 31580 31740
+pagesize -pg 1 -db -bbox -sgen -120 -10 31860 380
+"
+}
+
